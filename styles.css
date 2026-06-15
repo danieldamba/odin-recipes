@@ -1,6 +1,10 @@
 
+body {
+    background-color: beige;
+}
+
 h1, h2, h3, h4, h5 {
-    color:black;
+    color: #300000;
     font-family: Helvetica, sans-serif;
     text-align: center;
 }
@@ -19,12 +23,22 @@ h3 {
 
 h4 {
     font-size: 18px;
+    font-weight: lighter;
+    margin-top: 5px;
 }
 
 h5 {
     font-size: 12px;
 }
 
+p {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 20px;
+    text-align: left;
+    background-color: antiquewhite;
+}
 img {
     width: 800px;
     display: block;
@@ -32,6 +46,23 @@ img {
 
 #dishes {
     margin: 0 300px;
-
+    margin-bottom: 0;
 }
 
+.recipesLinks, #homePage {
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+    background-color: #300000;
+    color: bisque;
+}
+
+.links {
+    text-align: center;
+    margin: 50px;
+}
+
+ul li, ol li {
+    font-weight: 400;
+    font-size: large;
+}
